@@ -1,0 +1,29 @@
+<resources>
+    <string name="hello">Hello World, Link!</string>
+    <string name="app_name">我是小状元</string>
+    <string name="creator_slogan">您的支持是我们前进的动力!</string>
+
+    <string name="gesture_name">请填汉字名称</string>
+    <string name="game_time">剩余时间：</string>
+    <string name="contentDescriptionImage">11</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="time">所用时间为：$秒</string>
+    <string name="quit">退出</string>
+    <string name="sure_quit">您确定退出慧眼认字吗？</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+
+
+    <string name="share">分享</string>
+    <string name="next">下一关</string>
+    <string name="replay">重玩</string>
+    <string name="back">返回</string>
+    <string name="loading">努力加载中</string>
+
+    <string name="screenshot">截图</string>
+
+
+
+
+    <string name="huadong">左右滑动切换关卡</string>
+</resources>

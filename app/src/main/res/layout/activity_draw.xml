@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_back"
+        android:orientation="horizontal" 
+        >
+<Gallery
+            android:id="@+id/gallery"
+             android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/huabu" 
+            android:spacing="100pt"
+            android:layout_weight="1"
+            android:unselectedAlpha="1" />
+       
+    </LinearLayout>
+
+    <com.nuc.smallchampion.lovingdraw.MyAbsolutelayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/color_back"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:drawSelectorOnTop="false" />
+
+        <ImageButton
+            android:id="@+id/eraser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="15dip"
+            android:background="#00000000"
+            android:maxHeight="32px"
+            android:maxWidth="32px"
+            android:src="@drawable/eraser" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/eraser_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="15dip"
+            android:background="#00000000"
+              android:maxHeight="64px"
+            android:maxWidth="64px"
+            android:src="@drawable/eraser" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="1dip"
+            android:background="#00000000"
+            android:maxHeight="64px"
+            android:maxWidth="20px"
+            android:src="@drawable/line" >
+
+        </ImageButton>
+
+          </LinearLayout>
+
+</LinearLayout>

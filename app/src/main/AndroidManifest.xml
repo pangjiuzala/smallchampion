@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nuc.smallchampion"
+    android:versionCode="1"
+    android:versionName="1.0.2Beta" >
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.nuc.smallchampion.link.SplashscreenActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.ShareSDKAuthPageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.sharesdk.framework.AuthorizeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+
+            <!-- NoTitle表示不显示授权页面的标题 boolean值，为true表示不显示，否则为显示，默认为显示 -->
+            <!-- <meta-data android:name="NoTitle" android:value="true" /> -->
+        </activity>
+        <activity
+            android:name="sharesdk.ShareAllGird"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="sharesdk.SharePage"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.nuc.smallchampion.link.Link"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.lovingdraw.Draw"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame_Choose"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture1"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture2"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture3"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture4"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture5"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture6"
+            android:screenOrientation="portrait" >
+            >
+
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture7"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture8"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture9"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture10"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture11"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture12"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture13"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture14"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture15"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture16"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture17"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture18"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.AddGesture19"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.Write"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.write.RecogniseGesture"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.AccelerometerTest"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.ViewHtml"
+            android:screenOrientation="portrait" >
+            >
+        </activity>
+        <activity
+            android:name="com.nuc.smartboy.chess.ChessActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.Loading_Draw"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.Loading_PuzzleGame_Main"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.Loading_Link"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.About_Loading"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.Loading_AddGesture"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame7"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame8"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame9"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame10"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame11"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame12"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame13"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.puzzlegame.PuzzleGame14"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.About"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.nuc.smallchampion.mainview.About_Liu"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+
+
+
+
+
+</manifest>

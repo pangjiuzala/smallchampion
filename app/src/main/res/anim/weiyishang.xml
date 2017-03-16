@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:interpolator="@android:anim/linear_interpolator"
+	android:shareInterpolator="true"
+	android:startOffset="2000">
+	<!-- 定义缩放变换 -->
+	
+	<!-- 定义位移变换 -->		
+	<translate android:fromXDelta="0"
+		android:toXDelta="0"
+		android:fromYDelta="200"
+		android:toYDelta="-30"
+		android:duration="1900"
+	/>
+	
+</set>
