@@ -1,1 +1,3 @@
-### 不能导入项目的话请解压config.zip到当前目录下
+### 涓嶈兘瀵煎叆椤圭洰鐨勮瘽璇疯В鍘媍onfig.zip鍒板綋鍓嶇洰褰曚笅
+
+![搴旂敤璇︽儏](http://shouji.baidu.com/game/5737075.html)
